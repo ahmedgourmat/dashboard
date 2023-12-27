@@ -46,7 +46,7 @@ function Stories() {
             <div className="story-info">
               <div className="text">
                 <h1>{elem.title}</h1>
-                <p>{elem.content}</p>
+                <p>{{elem.content.slice(0,300)+'. . .'}}</p>
               </div>
               <div className='img'>
                 <img src={elem.image} alt={elem.title}/>
