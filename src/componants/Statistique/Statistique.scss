@@ -1,0 +1,16 @@
+.app__statistiques{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    background-color: #fff;
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgb(54, 54, 54);
+
+    .box{
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+}

@@ -1,0 +1,20 @@
+.app{
+    min-height: 100vh;
+    background-color: #FAFBFF;
+}
+.app__main{
+    padding: 80px 100px 30px 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+.elem{
+    cursor:pointer;
+    transition: all ease 0.3s
+}
+
+.elem:hover{
+    background-color: rgb(75, 201, 75);
+}
