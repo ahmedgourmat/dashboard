@@ -1,5 +1,5 @@
 import React from 'react'
-import './Client.scss'
+import './Client.css'
 import axios from '../../utils/axiosCostume'
 import { useState , useEffect } from 'react'
 

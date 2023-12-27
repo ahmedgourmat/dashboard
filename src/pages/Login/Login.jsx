@@ -1,5 +1,5 @@
 import React from 'react'
-import './Login.scss'
+import './Login.css'
 import { useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
@@ -28,7 +28,7 @@ function Login({setBool}) {
             });
 
             const token = response.data.data.token;
-
+            console.log('Login successful');
             localStorage.setItem('token', token);
 
             console.log('Login successful');

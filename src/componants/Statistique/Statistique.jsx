@@ -1,5 +1,5 @@
 import React from 'react'
-import './Statistique.scss'
+import './Statistique.css'
 
 function Statistique() {
     const arr = [
