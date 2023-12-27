@@ -18,9 +18,9 @@ function App() {
         {localStorage.getItem('token') && <Statistique/>}
         <Routes>
           <Route path="/" element={<Login />}/>
-          {localStorage.getItem('token') &&<Route path="/users" element={<Client />}/>}
-          {localStorage.getItem('token') &&<Route path="/stories" element={<Stories />}/>}
-          {localStorage.getItem('token') &&<Route path="/podcast" element={<Podcast />}/>}
+          <Route path="/users" element={<Client />}/>
+          <Route path="/stories" element={<Stories />}/>
+          <Route path="/podcast" element={<Podcast />}/>
         </Routes>
       </div>
     </BrowserRouter>
