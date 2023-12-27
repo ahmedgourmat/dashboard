@@ -9,9 +9,9 @@ function SideBar() {
       </div>
       <div className="app__sideBar-list">
         <p>Dashboard</p>
-        <a href='http://localhost:5173/stories' className='elem'>Stroies</a>
-        <a href='http://localhost:5173/users' className='elem'>Users</a>
-        <a href='http://localhost:5173/podcast' className='elem'>Podcast</a>
+        <a href='https://dashboard-3aaq.vercel.app/stories' className='elem'>Stroies</a>
+        <a href='https://dashboard-3aaq.vercel.app/users' className='elem'>Users</a>
+        <a href='https://dashboard-3aaq.vercel.app/podcast' className='elem'>Podcast</a>
       </div>
     </div>
   )
